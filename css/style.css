@@ -1,69 +1,131 @@
-@font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pgpdjh');
-  src:  url('fonts/icomoon.eot?pgpdjh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pgpdjh') format('truetype'),
-    url('fonts/icomoon.woff?pgpdjh') format('woff'),
-    url('fonts/icomoon.svg?pgpdjh#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  background-color: #F8F9FA;
 }
 
-.icon-heart:before {
-  content: "\e901";
+.contacts .row {
+  margin-left: 400px;
+  margin-top: -70px;
 }
-.icon-love:before {
-  content: "\e901";
+
+.text-muted {
+  font-weight: 100;
 }
-.icon-like:before {
-  content: "\e901";
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: inline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+  float: left;
+  margin-left: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
-.icon-envelope:before {
-  content: "\e900";
+
+.navigation ul {
+  margin-left: 300px;
 }
-.icon-location:before {
-  content: "\e902";
+
+.navigation ul li {
+  list-style-type: none;
 }
-.icon-map:before {
-  content: "\e902";
+
+.navigation {
+  padding: 35px;
+  background-color: #1089FF;
+  width: 1382px;
+  margin-left: -150px;
+  margin-bottom: 2px;
 }
-.icon-compass:before {
-  content: "\e902";
+
+.carousel-cell {
+  width: 100%;
+  height: 110vh;
 }
-.icon-direction:before {
-  content: "\e902";
+
+.img-text section {
+  margin-left: 50px;
+  margin-top: -550px;
+  color: #FFFFFF;
 }
-.icon-phone:before {
-  content: "\e942";
+
+.main-carousel {
+  margin-left: -129px;
 }
-.icon-location1:before {
-  content: "\e947";
+
+.welcome-part {
+  margin-top: 100px;
 }
-.icon-calendar:before {
-  content: "\e953";
+
+.welcome-part .text {
+  font-size: 1em;
+  font-family: cursive;
+  font-style: oblique;
 }
-.icon-facebook:before {
-  content: "\ea90";
+
+.welcome-parts h3 {
+  color: #000000;
+  font-family: "Oswald",sans-serif;
+  font-weight: 500;
 }
-.icon-twitter:before {
-  content: "\ea96";
+
+.btn {
+  background-color: #1089FF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
-.icon-linkedin2:before {
-  content: "\eaca";
+
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #0b6ac9;
 }
+
+.welcome-parts .line {
+  background-color: #1089FF;
+  width: 55px;
+  height: 2px;
+}
+
+.info-part {
+  margin-top: 190px;
+}
+
+.icons {
+  color: #000000;
+}
+
+.numbers-part {
+  width: 1360px;
+  height: 300px;
+  margin-left: -125px;
+  overflow: hidden;
+}
+
+.numb {
+  display: block;
+  width: 180px;
+  max-width: 180px;
+  height: auto;
+  background-color: #1089FF;
+  opacity: 0.9;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
