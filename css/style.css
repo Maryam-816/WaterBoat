@@ -90,42 +90,9 @@ body {
   background-color: #0b6ac9;
 }
 
-.welcome-parts .line {
+.welcome-part .line {
   background-color: #1089FF;
   width: 55px;
   height: 2px;
-}
-
-.info-part {
-  margin-top: 190px;
-}
-
-.icons {
-  color: #000000;
-}
-
-.numbers-part {
-  width: 1360px;
-  height: 300px;
-  margin-left: -125px;
-  overflow: hidden;
-}
-
-.numb {
-  display: block;
-  width: 180px;
-  max-width: 180px;
-  height: auto;
-  background-color: #1089FF;
-  opacity: 0.9;
-}
-
-.col {
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-      flex-grow: 1;
-  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

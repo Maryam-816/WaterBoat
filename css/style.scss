@@ -60,3 +60,33 @@ body{
     margin-left: -129px;
 }
 
+.welcome-part{
+    margin-top: 100px;
+}
+.welcome-part .text{
+    font-size: 1em;
+    font-family: cursive;
+    font-style: oblique
+}
+.welcome-parts h3{
+    color: #000000;
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #1089FF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #0b6ac9;
+}
+
+.welcome-part .line{
+    background-color: #1089FF;
+    width: 55px;
+    height: 2px;
+}
