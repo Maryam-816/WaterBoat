@@ -19,7 +19,6 @@ body {
 }
 
 .navigation ul li a {
-  text-decoration: none;
   color: #FFFFFF;
   display: inline;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -32,6 +31,10 @@ body {
 
 .navigation ul {
   margin-left: 300px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navigation ul li {
@@ -90,7 +93,7 @@ body {
   background-color: #0b6ac9;
 }
 
-.welcome-part .line {
+.line {
   background-color: #1089FF;
   width: 55px;
   height: 2px;
@@ -102,5 +105,73 @@ body {
 
 .icons {
   color: #000000;
+}
+
+.num-img {
+  width: 1362px;
+  height: 60vh;
+  margin-left: -130px;
+  position: absolute;
+  opacity: 0.9;
+}
+
+.col {
+  color: #ffffff;
+}
+
+.destinations img {
+  width: 360px;
+  height: 270px;
+  margin-left: -12px;
+}
+
+.col h3 p {
+  text-align: center;
+}
+
+.numbers {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.destinations .line {
+  margin-left: 530px;
+}
+
+.card {
+  -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  width: 361px;
+  height: 363px;
+}
+
+.card-title {
+  margin-left: -60px;
+  margin-top: -20px;
+}
+
+.card .price {
+  width: -600px;
+  height: -200px;
+  background-color: #1089FF;
+}
+
+.card-body {
+  margin-top: -19px;
+}
+
+.icon-location:hover {
+  color: #0080ff;
+}
+
+.icon-calendar {
+  color: #797979;
+}
+
+.date {
+  margin-left: -32px;
+  margin-top: -8px;
 }
 /*# sourceMappingURL=style.css.map */
