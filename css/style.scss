@@ -67,11 +67,7 @@ a{
 .welcome-part{
     margin-top: 100px;
 }
-.welcome-part .text{
-    font-size: 1em;
-    font-family: cursive;
-    font-style: oblique
-}
+
 .welcome-parts h3{
     color: #000000;
     font-family: "Oswald",sans-serif;
@@ -162,4 +158,35 @@ a{
 .date{
     margin-left: -32px;
     margin-top: -8px;
+}
+
+.light-section{
+    background: #FFFFFF !important;
+}
+
+.text{
+    font-size: 1em;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.booking .line{
+    width: 64px;
+}
+
+.booking label{
+    color: #777;
+}
+
+.booking textarea{
+    border: 1px solid #bfbfbf;
+}
+
+.img{
+    width: 630px;
+    height: 420px;
+}
+
+.form-control{
+    color: #495057;
 }
