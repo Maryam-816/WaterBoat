@@ -95,6 +95,7 @@ a {
 
 .info-part {
   margin-top: 190px;
+  margin-bottom: 160px;
 }
 
 .icons {
@@ -106,7 +107,7 @@ a {
   height: 60vh;
   margin-left: -130px;
   position: absolute;
-  opacity: 0.9;
+  background-color: #1088ff34;
 }
 
 .col {
@@ -117,6 +118,10 @@ a {
   width: 360px;
   height: 270px;
   margin-left: -12px;
+}
+
+.destinations {
+  margin-top: 300px;
 }
 
 .col h3 p {
@@ -198,5 +203,49 @@ a {
 
 .form-control {
   color: #495057;
+}
+
+.team .line {
+  margin-left: 520px;
+}
+
+.member .img {
+  width: 260px;
+  height: 320px;
+}
+
+.member .icon {
+  background-color: #FFFFFF;
+  width: 70px;
+  height: 70px;
+  color: #1089FF;
+}
+
+.centered {
+  font-size: 23px;
+  position: absolute;
+  right: -240px;
+  bottom: -1800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.numbers-part img {
+  position: absolute;
+  left: 50%;
+  margin-bottom: 100px;
+  margin-left: -105px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 1555px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
