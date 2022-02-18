@@ -42,6 +42,7 @@ a{
 }
 
 .navigation{
+    margin-top: -300px;
     align-content: stretch;
     padding: 35px;
     background-color: #1089FF;
@@ -295,4 +296,24 @@ a{
     margin-top: 130px;
     margin-left: 220px;
     margin-bottom: 90px;
+}
+
+
+label[id*='-error']{
+    color: #f00;
+}
+
+.comments .border{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.comments figcaption h5, p{
+    display: flex;
+    justify-content: left;
+}
+
+.comments figcaption{
+    margin-left: -30px;
 }

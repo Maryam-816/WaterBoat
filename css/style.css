@@ -42,6 +42,7 @@ a {
 }
 
 .navigation {
+  margin-top: -300px;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   padding: 35px;
@@ -311,5 +312,32 @@ a {
   margin-top: 130px;
   margin-left: 220px;
   margin-bottom: 90px;
+}
+
+label[id*='-error'] {
+  color: #f00;
+}
+
+.comments .border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+}
+
+.comments figcaption h5, p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.comments figcaption {
+  margin-left: -30px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
     <title>WaterBoat - Website Template</title>
     <link rel="stylesheet" href="./css/normalize.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -262,23 +262,23 @@
                         <form class="row">
                             <div class="form-sec col-md-6">
                                 <label>Full Name:</label>
-                                <input type="text" class="form-control" value="name">
+                                <input type="text" class="form-control" name="name">
                             </div>
                             <div class="form-sec col-md-6">
                                 <label>Number of People:</label>
-                                <input type="text" class="form-control" value="numberOfPeople">
+                                <input type="text" class="form-control" name="numberOfPeople">
                             </div>
                             <div class="form-sec col-md-6 mt-3">
                                 <label>Date From:</label>
-                                <input type="date" class="form-control" value="dateFrom">
+                                <input type="date" class="form-control" name="dateFrom">
                             </div>
                             <div class="form-sec col-md-6 mt-3">
                                 <label>Date To:</label>
-                                <input type="date" class="form-control" value="dateTo">
+                                <input type="date" class="form-control" name="dateTo">
                             </div>
                             <div class="form-sec col-md-12 mt-4">
                                 <label>Yacht You're Interested in:</label>
-                                <select id="" class="form-control">
+                                <select class="form-control">
                                     <option class="text-dark">Motor Yatch</option>
                                     <option class="text-dark">Hi-Speed Yacht</option>
                                     <option class="text-dark">Premium Yacht</option>
@@ -287,18 +287,18 @@
                             </div>
                             <div class="form-sec col-md-6 mt-3">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" value="email">
+                                <input type="email" class="form-control" name="email">
                             </div>
                             <div class="form-sec col-md-6 mt-3">
                                 <label>Phone Number</label>
-                                <input type="text" class="form-control" value="phoneNumber">
+                                <input type="text" class="form-control" name="phoneNumber">
                             </div>
                             <label class="mt-3">Notes:</label>
                             <div class="form-sec col-md-12 mt-3">
                                 <textarea class="rounded mb-3" cols="57" rows="7"></textarea>
                             </div>
                             <div class="form-sec">
-                                <p><a href="/index.html" class="btn book-btn py-2 col-md-5">Book now</a></p>
+                                <p><a href="#" class="btn book-btn py-2 col-md-5">Book now</a></p>
                             </div>
                         </form>
                     </div>
@@ -391,51 +391,61 @@
                         <h3 class="text-dark">What Customer Saying...</h3>
                         <p class="line mt-4 rounded mb-5"></p>
                     </div>
-                                <div class="comments py-5 my-5">
+                                <div class="comments py-5 my-4">
                                     <div class="row justify-content-between align-items-center">
-                                        <div class="col-md-4 mb-5">
+
+                                        <div style="width: 390px; margin-right: 30px;" class="col-md-4">
                                             <section class="feed">
-                                                <p class="bg-light p-3 rounded text-muted col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                                               
-                                                <figure class="d-flex">
-                                                    <section class="picture">
-                                                        <img class="rounded-circle w-25" src="/imgs/team_member2.png" alt="">
-                                                    </section>
-                                                    <figcaption>
-                                                        <h5>John Doe</h5>
-                                                        <p>CEO and Co-Founder</p>
-                                                    </figcaption>
+                                                <p class="border rounded p-5" style="color: #929292;">
+                                                    Far far away, behind the word mountains, 
+                                                    far from the countries Vokalia and Consonantia, 
+                                                    there live the blind texts.
+                                                </p>
+                                            </section>
+                                            <section class="row">
+                                                <figure class="col-4">
+                                                    <img src="./imgs/team_member4.png" alt="picture" class="w-50 rounded-circle">
                                                 </figure>
+                                                <figcaption class="col-8">
+                                                    <h5>John Doe</h5>
+                                                    <p class="fw-normal mx-0" style="color: #777;">CEO and Co-Founder</p>
+                                                </figcaption>
                                             </section>
                                         </div>
-                                        <div class="col-md-4 mb-5">
+                                        <div style="width: 390px; margin-right: 30px;" class="col-md-4">
                                             <section class="feed">
-                                                <p class="bg-light p-3 rounded text-muted col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                                               
-                                                <figure class="d-flex">
-                                                    <section class="picture">
-                                                        <img class="rounded-circle w-25" src="/imgs/team_member2.png" alt="">
-                                                    </section>
-                                                    <figcaption>
-                                                        <h5>John Doe</h5>
-                                                        <p>CEO and Co-Founder</p>
-                                                    </figcaption>
+                                                <p class="border rounded p-5" style="color: #929292;">
+                                                    Far far away, behind the word mountains, 
+                                                    far from the countries Vokalia and Consonantia, 
+                                                    there live the blind texts.
+                                                </p>
+                                            </section>
+                                            <section class="row">
+                                                <figure class="col-4">
+                                                    <img src="./imgs/team_member2.png" alt="picture" class="w-50 rounded-circle">
                                                 </figure>
+                                                <figcaption class="col-8">
+                                                    <h5>John Doe</h5>
+                                                    <p class="fw-normal mx-0" style="color: #777;">CEO and Co-Founder</p>
+                                                </figcaption>
                                             </section>
                                         </div>
-                                        <div class="col-md-4 mb-5">
+                                        <div style="width: 390px; margin-right: 30px;" class="col-md-4">
                                             <section class="feed">
-                                                <p class="bg-light p-3 rounded text-muted col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                                               
-                                                <figure class="d-flex">
-                                                    <section class="picture">
-                                                        <img class="rounded-circle w-25" src="/imgs/team_member2.png" alt="">
-                                                    </section>
-                                                    <figcaption>
-                                                        <h5>John Doe</h5>
-                                                        <p>CEO and Co-Founder</p>
-                                                    </figcaption>
+                                                <p class="border rounded p-5" style="color: #929292;">
+                                                    Far far away, behind the word mountains, 
+                                                    far from the countries Vokalia and Consonantia, 
+                                                    there live the blind texts.
+                                                </p>
+                                            </section>
+                                            <section class="row">
+                                                <figure class="col-4">
+                                                    <img src="./imgs/team_member4.png" alt="picture" class="w-50 rounded-circle">
                                                 </figure>
+                                                <figcaption class="col-8">
+                                                    <h5>John Doe</h5>
+                                                    <p class="fw-normal mx-0" style="color: #777;">CEO and Co-Founder</p>
+                                                </figcaption>
                                             </section>
                                         </div>
 
