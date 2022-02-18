@@ -10,7 +10,7 @@ body{
 
 .contacts .row{
     margin-left: 400px;
-    margin-top: -70px;
+    margin-top: -420px;
 }
 
 .text-muted{
@@ -42,16 +42,24 @@ a{
 }
 
 .navigation{
+    align-content: stretch;
     padding: 35px;
     background-color: #1089FF;
     width: 1382px;
     margin-left: -150px;
-    margin-bottom: 2px;
 }
 
 .carousel-cell{
-    width: 100%;
-    height: 110vh;
+   width: 100%;
+    height: 650px;
+}
+
+.img-text img{
+    background: #1088ff25;
+    background-position:center;
+    background-size:cover;
+    width:3000px;
+    height:650px;
 }
 
 .img-text section{
@@ -213,22 +221,78 @@ a{
 }
 
 .centered {
-    font-size: 23px;
-    position: absolute;
-    right: -240px;
-    bottom: -1800px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
-.numbers-part img{
-        position: absolute;
-        left:50%;
-        margin-bottom: 100px;
-        margin-left: -105px;
-        transform:translate(-50%,-50%);
-        width:1555px;
-        height:300px;
-        object-fit:cover;
+
+.testimonial{
+    margin-top: 200px;
+}
+
+.testimonial .line{
+    margin-left: 520px;
+}
+
+.rounded-circle{
+    border-radius: 50%;
+}
+
+.feed h5{
+    font-weight: 400;
+}
+
+.feed .bg-light{
+    color: #CFDBED;
+    border: 1px solid #777;
+    text-align: left;
+}
+
+.in-touch{
+    background: #1088ff25;
+    background-position:center center;
+    background-size:cover;
+    width:1345px;
+    height:300px;
+}
+
+.in-touch .text-center{
+    margin-top: 70px;
+}
+
+.footer .line1{
+    width: 125px;
+}
+
+.footer .line2{
+    width: 116px;
+}
+
+.footer .line3{
+    width: 70px;
+}
+
+.footer .line{
+    margin-top: -7px;
+}
+
+.footer ul li{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.foot-head{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.copyright-sec{
+    margin-top: 130px;
+    margin-left: 220px;
+    margin-bottom: 90px;
 }
