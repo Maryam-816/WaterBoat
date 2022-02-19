@@ -5,12 +5,36 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px),( max-width: 768px) {
-
+    .testimonial .comm{
+        float: left;
+        text-align: left;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px), (max-width: 992px) {
+    .contacts{
+        display: none;
+    }
 
+    .main-navbar{
+        display: none;
+    }
+
+    .main-navbar .icon-menu{
+        display: block;
+        font-size: 25px;
+    }
+
+    .welcome-part img{
+        max-width: 100%;
+    }
+
+    .destinations .card{
+        height: 390px;
+    }
+
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

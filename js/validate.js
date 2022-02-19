@@ -1,10 +1,7 @@
 $(document).ready(function () {
-    $(".book-btn").click( () => {
-        $('.booking .row').valid();
-    });
-    jQuery.validator.addMethod("allNumbers", function(value, element) {
+    jQuery.validator.addMethod("email", function(value, element) {
         return this.optional(element) || /\d/g.test(value);
-      }, ("This field should include only numbers"));
+      }, ("This field should contain what is specified"));
 
       $('.booking .row').validate({
        rules: {
@@ -60,6 +57,9 @@ $(document).ready(function () {
            }
        }
    });
-
+   
+   $(".book-btn").click( () => {
+    $('.booking row').validate();
+    });
    
 });
